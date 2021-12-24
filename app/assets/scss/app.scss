@@ -1,0 +1,72 @@
+@import 'vcss.scss';
+
+      *,
+      *:before,
+      *:after{
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        background: linear-gradient(
+              110deg,
+              #7179ba,
+              #9b9ec7
+              );
+      }
+
+      .container {
+        min-width: 450px;
+        width: 40%;
+        top: 50%;
+        left: 50%;
+        padding: 30px 40px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        border: 2px solid lavender;
+      }
+
+      #newtask {
+        background-color: lavender;
+        padding: 30px 20px;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.3)
+      }
+
+      #newtask input {
+        width: 80%;
+        height: 45px;
+        position: relative;
+        font-size: 17px;
+        border: 2px solid white;
+        padding: 12px;
+        font-weight: 350;
+        position: relative;
+      }
+
+      #newtask button {
+        color: #c0e6f0;
+        background-color: #2093c3;
+        float: right;
+        position: relative;
+        cursor: pointer;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 42px;
+        width: 18%;
+        font-size: 16px;
+        border: none;
+        transform: translate(0,-103%);
+      }
+
+      #tasks {
+        background-color: white;
+        padding: 30px 20px;
+        margin-top: 60px;
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+      }
